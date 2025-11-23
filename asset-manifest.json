@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/popart-frontend/static/css/main.6f1e22e3.css",
-    "main.js": "/popart-frontend/static/js/main.bbc3c0fd.js",
+    "main.js": "/popart-frontend/static/js/main.305b56c6.js",
     "static/js/453.8497a45b.chunk.js": "/popart-frontend/static/js/453.8497a45b.chunk.js",
     "static/media/slick.svg": "/popart-frontend/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/popart-frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
@@ -9,11 +9,11 @@
     "static/media/slick.woff": "/popart-frontend/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/popart-frontend/index.html",
     "main.6f1e22e3.css.map": "/popart-frontend/static/css/main.6f1e22e3.css.map",
-    "main.bbc3c0fd.js.map": "/popart-frontend/static/js/main.bbc3c0fd.js.map",
+    "main.305b56c6.js.map": "/popart-frontend/static/js/main.305b56c6.js.map",
     "453.8497a45b.chunk.js.map": "/popart-frontend/static/js/453.8497a45b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f1e22e3.css",
-    "static/js/main.bbc3c0fd.js"
+    "static/js/main.305b56c6.js"
   ]
 }

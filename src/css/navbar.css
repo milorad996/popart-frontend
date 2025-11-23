@@ -1,0 +1,140 @@
+.custom-navbar {
+    background-color: #28584e;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.sidebar-toggle-btn {
+    color: white;
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar-toggle-btn:hover,
+.sidebar-toggle-btn:focus {
+    color: #ff7f50;
+    outline: none;
+}
+
+.auto-market {
+    color: #fffbf8;
+    font-family: 'Trade Winds', serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+.nav-links {
+    display: flex !important;
+    align-items: center;
+    gap: 12px;
+}
+
+.home-link,
+.about-link,
+.sell-link {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    padding: 0;
+    margin: 0 6px;
+}
+
+.home-link:hover,
+.about-link:hover,
+.sell-link:hover {
+    color: #ff7f50;
+}
+
+.login-link {
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid #ff7f50;
+    border-radius: 4px;
+    padding: 5px 12px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-left: 6px;
+}
+
+.login-link:hover {
+    background-color: #ff7f50;
+    color: white;
+    text-decoration: none;
+}
+
+.custom-logout-button {
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-logout-button:hover {
+    background-color: #28584e;
+    color: #ff7f50;
+}
+
+.admin-link {
+    background-color: #ff4d4f;
+    color: white !important;
+    padding: 5px 12px;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+
+@media (max-width: 991px) {
+    .auto-market {
+        font-size: 22px;
+    }
+
+    .home-link,
+    .about-link,
+    .sell-link,
+    .login-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .auto-market {
+        font-size: 18px;
+    }
+
+    .home-link,
+    .about-link,
+    .sell-link,
+    .login-link {
+        font-size: 12px;
+    }
+}

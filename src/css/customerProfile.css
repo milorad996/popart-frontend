@@ -1,0 +1,92 @@
+/* WRAPPER SA 10rem LEVO I DESNO */
+.customer-wrapper {
+    width: calc(100% - 20rem);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.customer-block {
+    border: 2px solid #dcdcdc;
+    padding: 20px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.listing-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.listings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.listing-item {
+    border: 1px solid #e2e2e2;
+    padding: 15px;
+    border-radius: 10px;
+    background: #fafafa;
+    transition: 0.2s ease;
+}
+
+.listing-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.listing-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.btn-primary {
+    padding: 10px 15px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background: #0069d9;
+}
+
+.btn-edit {
+    padding: 8px 12px;
+    background: orange;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-delete {
+    padding: 8px 12px;
+    background: red;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .customer-wrapper {
+        width: 95%;
+    }
+}

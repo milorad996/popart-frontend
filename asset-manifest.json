@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/milorad996/popart-frontend/static/css/main.32c4c381.css",
+    "main.js": "/milorad996/popart-frontend/static/js/main.71a7537d.js",
+    "static/js/453.8497a45b.chunk.js": "/milorad996/popart-frontend/static/js/453.8497a45b.chunk.js",
+    "static/media/slick.svg": "/milorad996/popart-frontend/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/milorad996/popart-frontend/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/milorad996/popart-frontend/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/milorad996/popart-frontend/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/milorad996/popart-frontend/index.html",
+    "main.32c4c381.css.map": "/milorad996/popart-frontend/static/css/main.32c4c381.css.map",
+    "main.71a7537d.js.map": "/milorad996/popart-frontend/static/js/main.71a7537d.js.map",
+    "453.8497a45b.chunk.js.map": "/milorad996/popart-frontend/static/js/453.8497a45b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32c4c381.css",
+    "static/js/main.71a7537d.js"
+  ]
+}

@@ -13,7 +13,6 @@ class ListingService extends HttpService {
     createCategory = async (categoryData) => {
         try {
             const { data } = await this.client.post("/admin/categories", categoryData);
-            console.log("data category", data);
             return data;
         } catch (error) {
             throw error;

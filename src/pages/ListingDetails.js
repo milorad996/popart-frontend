@@ -45,7 +45,7 @@ function ListingDetails() {
                             {listing.images.map(img => (
                                 <div key={img.id} className="image-slide">
                                     <img
-                                        src={`http://localhost:8000/storage/${img.path}`}
+                                        src={`https://web-production-6bf77.up.railway.app/storage/${img.path}`}
                                         alt={img.alt || listing.title}
                                         className="listing-image"
                                     />

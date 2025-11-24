@@ -18,7 +18,6 @@ function Home() {
         location: "",
         category: "",
     });
-    console.log("filter in home", filters);
     useEffect(() => {
         const apiParams = {
             page: filters.page,

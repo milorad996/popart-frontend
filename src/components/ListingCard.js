@@ -2,13 +2,14 @@ import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function ListingCard({ listing, showActions = false, onEdit, onDelete }) {
+
     return (
         <div className="listing-card">
             <Link to={`/listings/${listing.id}`} className="listing-link">
                 <div className="listing-image-wrapper">
                     {listing.images && listing.images.length > 0 ? (
                         <img
-                            src={`http://localhost:8000/storage/${listing.images[0].path}`}
+                            src={`https://web-production-6bf77.up.railway.app/storage/${listing?.images[0].path}`}
                             alt={listing.title}
                             className="listing-image"
                         />

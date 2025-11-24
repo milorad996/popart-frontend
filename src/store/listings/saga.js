@@ -65,10 +65,7 @@ function* fetchCategoriesHandler() {
 
 function* createListingHandler({ payload }) {
     try {
-        console.log("createListing handler called with payload:", payload);
         const data = yield call(listingService.create, payload);
-
-        console.log("data from backend:", data);
         yield put(setListingSuccessMessage(data.message));
         yield put(fetchListings({ page: 1 }));
     } catch (e) {
